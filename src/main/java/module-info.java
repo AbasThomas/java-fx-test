@@ -10,6 +10,8 @@ module thomas.com.javafxtest {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires jdk.jfr;
+    requires java.desktop;
 
     opens thomas.com.javafxtest to javafx.fxml;
     exports thomas.com.javafxtest;
